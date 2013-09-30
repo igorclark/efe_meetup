@@ -5,7 +5,7 @@
 -export([area/2]).
 
 %% @doc Calculates the area of a rectangles using supplied Length and Width arguments.
-%% Returns the area as an integer.
-%% @spec area(integer(), integer()) -> integer()
+%% Returns the area as an number.
+%% @spec area(number(), number()) -> number()
 area(Length, Width) ->
 	Length * Width.
